@@ -10,8 +10,6 @@ def scrape_nba():
 
     try:
         data = pickle.load(open(data_path + '.pkl', 'rb'))
-        if data == {}:
-            data = {}
     except:
         data = {}
 
