@@ -4,8 +4,8 @@ import pickle
 
 def scrape_nba():
 
-    game_list_path = 'C:/NBA/game_list'
-    data_path = 'C:/NBA/data_all'
+    game_list_path = 'NBA/game_list'
+    data_path = 'NBA/data_all'
     games_actual_season = 479
 
     try:
