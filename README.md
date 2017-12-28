@@ -1,4 +1,5 @@
 ####################################################################################
+
 Purpose:
 To scrape team and player stats from NBA.com, for all games played within a specified period
 
