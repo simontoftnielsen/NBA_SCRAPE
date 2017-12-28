@@ -190,4 +190,5 @@ def scrape_nba():
 	with open(game_list_path + '.pkl', 'wb') as f:
 		pickle.dump(games_in_list, f, pickle.HIGHEST_PROTOCOL)
 
+        
 scrape_nba()
